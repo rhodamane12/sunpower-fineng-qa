@@ -1,0 +1,359 @@
+id: bT9XpQ4pxUOON3OtiCNcrg
+projectId: ktfXeUcnW0iu_QdDxVqxog
+projectName: SunPower Fineng QA
+created: 2021-07-26T21:10:09.9500036Z
+protocol: 1
+tests:
+- id: _D3y3AVJNkqQ_BY8l8NCKw
+  name: Uniform the tab of 'Action' to the existing tab.
+  description: The goal of the testing is to remove the redundant ''Action' tab.
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-06-30T14:46:56.0000000
+  modificationDate: 2021-06-30T15:01:51.0000000
+  settings:
+    automationAssistant: true
+    appId: Nsdz9nnsw0yupYJbbsqDPw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: Nsdz9nnsw0yupYJbbsqDPw
+    name: QA Fineng UI
+    url: https://fineng-ui-qa.mysunpower.com/api/new_ui/new_login
+    platform: Web
+  steps:
+  - id: QS-6Ti1NK0qm3RpiqVlnKA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TATm90XeKE6J2-W5CuEjkA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ff1g3Sm7kUucTMqRaWHZcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZubfW6jxLEeAHyWIOjUCbw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: ff1g3Sm7kUucTMqRaWHZcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: rhodamane.fajarit@sunpowercorp.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NBneJwi1nUqa_Db0P4PHMw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: U5uNaE0XJkG9bI8SQGg-vA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -xhHFSZByEaB9w6m1ZvXmw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: U5uNaE0XJkG9bI8SQGg-vA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: TeamJesus12
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NanG64GRJ0uXUUX5xXAFSg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: qkr9BtjzXEi5KJNuZ62ekQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UNectmlpvE2yk_umqaZhTA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: rt8nlAmheE-jCs7touBaSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lwCkDyZBdEqPf24bj_fRvw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: boqTyBtTUkyGFsaEyg28KA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zLkCBqkB7EC6Cc12Pkad7Q
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: YE7r3NOGgEy7gsAs0ANLEg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PjoJLxzjfk2vsiOw7nGQuQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: YE7r3NOGgEy7gsAs0ANLEg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://fineng-ui-qa.mysunpower.com/api/new_ui/new_login
+    type: Input
+  tags:
+  - Enhancement
+auxTests: []
+elements:
+- id: ff1g3Sm7kUucTMqRaWHZcA
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputEmail'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email address']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/form/input[1]
+    priority: 3
+- id: U5uNaE0XJkG9bI8SQGg-vA
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputPassword'
+    priority: 0
+  - name: XPATH
+    value: //input[2][@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //input[2]
+    priority: 2
+  - name: XPATH
+    value: /html/body/form/input[2]
+    priority: 3
+- id: qkr9BtjzXEi5KJNuZ62ekQ
+  name: Sign in
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign in']
+    priority: 0
+  - name: XPATH
+    value: //body/form/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/form/button[1]
+    priority: 2
+- id: boqTyBtTUkyGFsaEyg28KA
+  name: Action
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Action']
+    priority: 0
+  - name: XPATH
+    value: //li/ul/li[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/nav/div/div[2]/ul/li[2]/ul/li[4]/a
+    priority: 2
+- id: YE7r3NOGgEy7gsAs0ANLEg
+  name: ACTION1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#home-tab'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'ACTION']
+    priority: 1
+  - name: XPATH
+    value: //div/div[1]/div//a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/ul/li/a
+    priority: 3
+- id: rt8nlAmheE-jCs7touBaSg
+  name: settings1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#navbarDropdown'
+    priority: 0
+  - name: XPATH
+    value: "//a[. = '\n              \n                settings\n              \n            ']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/ul/li[2]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/nav/div/div[2]/ul/li[2]/a
+    priority: 3
+projectParameters: []
+addons: []
